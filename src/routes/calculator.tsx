@@ -84,6 +84,26 @@ const CALC_FAQS = [
     q: "How much waste should I add when ordering fence materials?",
     a: "We include 10% waste by default in the calculator for cuts, damage, and terrain. Some irregular sites or very long runs use 12–15%. The tool always rounds up posts, panels, bags, and boards so your order covers real-world needs.",
   },
+  {
+    q: "What post sizes are recommended for horse, cattle, or goat fencing?",
+    a: "Line posts: 4×4 or 5×5 pressure-treated or cedar for most horse and farm use; 6×6 for heavy gates/corners and high-pressure areas. For cattle, 4×4 at 8–10 ft often suffices. Goats and sheep benefit from closer spacing (6 ft) plus woven wire or electric strands. The calculator uses realistic counts for your chosen style; our quotes specify exact post dimensions for the livestock you keep.",
+  },
+  {
+    q: "How do I calculate fencing needs for sloped or hilly pasture in Kentucky?",
+    a: "Always measure the true surface distance along the slope rather than flat map distance. Hills increase actual footage 5–15% on rolling Bluegrass terrain. You may need stepped rails, shorter sections, or extra bracing. Use the livestock fence estimator for base numbers, then bump length and add extra posts/concrete for the grade. Corner and end posts become critical on slopes.",
+  },
+  {
+    q: "Treated pine vs oak vs cedar for livestock board fencing — pros and cons?",
+    a: "Pressure-treated pine: affordable, strong when dry, takes paint beautifully and is the everyday farm standard. Oak: premium traditional Bluegrass look, extremely hard and long-lasting, heavier to handle and costlier. Cedar: naturally rot-resistant, lighter weight, attractive without paint but softer against kicks or chewing. Many Somerset farms choose painted PT or oak for authenticity and durability. The calculator reflects current local pricing for these choices.",
+  },
+  {
+    q: "What fasteners, brackets, and hardware matter most for a long-lasting livestock fence?",
+    a: "Hot-dipped galvanized or stainless ring-shank nails (minimum 2–3 per board end), heavy carriage bolts at posts, and quality post caps or rail brackets. Gate hinges, latches, and spring-loaded closers must be livestock-grade. Weak hardware is the #1 reason farm fences fail early. Our estimates include full hardware kits; pro installs use components rated for constant animal pressure and Kentucky weather.",
+  },
+  {
+    q: "How can I use the calculator to plan cross-fencing or multiple paddocks on my farm?",
+    a: "Sum the lengths of every run (perimeter + all dividers) or run the tool once per section and total the results. Interior cross fences can sometimes use slightly lighter posts or wider spacing, but still need gates between paddocks. Add 10%+ waste for terrain and corners. Start with the Horse pasture or Livestock 200 ft presets, adjust, then copy the shareable link and send it to us for a complete multi-paddock farm quote.",
+  },
 ];
 
 const calcSearchSchema = z.object({
