@@ -64,9 +64,16 @@ export function SiteFooter() {
       </div>
 
       <div className="border-t border-primary-foreground/15">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-6 text-xs text-primary-foreground/60 sm:flex-row sm:px-6 lg:px-8">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-primary-foreground/60 sm:flex-row sm:px-6 lg:px-8">
           <p>© {new Date().getFullYear()} Bluegrass Fence Co. Licensed &amp; insured in Kentucky.</p>
           <p>Serving Pulaski · Wayne · McCreary · Russell · Laurel counties</p>
+        </div>
+      </div>
+
+      {/* Demo notice — elegant, non-intrusive, consistent with design system */}
+      <div className="border-t border-primary-foreground/10 bg-primary/95">
+        <div className="mx-auto max-w-7xl px-4 py-3 text-center text-[10px] leading-relaxed text-primary-foreground/45 sm:px-6 lg:px-8">
+          This is a fictional demo website built by <span className="font-medium text-primary-foreground/70">Bluegrass Digital Forge</span> to showcase premium design and interactive tools for Kentucky businesses.<br className="hidden sm:inline" /> All company details, addresses, phone numbers, and contact information are entirely fictitious.
         </div>
       </div>
     </footer>
