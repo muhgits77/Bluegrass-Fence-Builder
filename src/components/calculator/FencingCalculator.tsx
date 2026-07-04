@@ -214,11 +214,12 @@ export default function FencingCalculator({ initialState = {} }: FencingCalculat
               </div>
             </section>
 
-            {/* Quick presets */}
+            {/* Quick presets — popular high-intent starting points */}
             <div className="flex flex-wrap gap-2">
               {[
                 { label: "Backyard 120 ft", apply: () => setInput((p) => ({ ...p, lengthFt: 120, gates: 1 })) },
                 { label: "Horse pasture 300 ft", apply: () => setInput((p) => ({ ...p, lengthFt: 300, heightFt: 4, gates: 2, style: "horse_board", postSpacingFt: 8 })) },
+                { label: "Livestock 200 ft farm fence", apply: () => setInput((p) => ({ ...p, lengthFt: 200, heightFt: 4, gates: 1, style: "horse_board", postSpacingFt: 8 })) },
                 { label: "Driveway entry", apply: () => setInput((p) => ({ ...p, lengthFt: 80, gates: 1, gateWidthFt: 10, style: "ornamental_iron", postSpacingFt: 6.5 })) },
                 { label: "Privacy 200 ft", apply: () => setInput((p) => ({ ...p, lengthFt: 200, heightFt: 6, gates: 1, style: "cedar_privacy" })) },
               ].map((p, i) => (
